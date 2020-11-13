@@ -1,0 +1,12 @@
+{
+  "extends": "gojutin",
+  "overrides": [
+    {
+      // Storybook requires modifying of an args object
+      "files": ["src/**/*.stories.tsx"],
+      "rules": {
+        "functional/immutable-data": 0
+      }
+    }
+  ]
+}
