@@ -11,7 +11,6 @@
 - Functional, React/TypeScript ESLint configuration.
 - ✨ Bootstrapped with Create Snowpack App (CSA).
 
-> 💡 Check out my [TailwindCSS Cheatsheet](https://github.com/gojutin/tailwindcss-cheatsheet).
 
 ## Getting Started
 
@@ -34,7 +33,7 @@ yarn
 
 **Step 3:**
 
-Run one of the scripts below
+Run one of the scripts below:
 
 ## Available Scripts
 
@@ -50,6 +49,8 @@ Run one of the scripts below
 | `yarn build`           | Builds a static copy of your site to the `build/` folder using a minimal Webpack set up. (*@snowpack/plugin-webpack* & *@snowpack/plugin-optimize*). Learn more at [https://www.snowpack.dev/#optimized-builds](https://www.snowpack.dev/#optimized-builds). |
 
 ## Useful Resources
+
+> 💡 Check out my [TailwindCSS Cheatsheet](https://github.com/gojutin/tailwindcss-cheatsheet).
 
 - [TailwindCSS Documentation](https://tailwindcss.com/docs/installation)
 - [TailwindCSS Default Configuration](https://github.com/tailwindlabs/tailwindcss/blob/v1/stubs/defaultConfig.stub.js)
