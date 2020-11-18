@@ -1,7 +1,6 @@
-import { Transition } from '@headlessui/react'; // 241
-import React, { useState, useEffect } from 'react';
+import { Transition } from '@headlessui/react';
+import React, { useState } from 'react';
 import useOnclickOutside from 'react-cool-onclickoutside';
-import { useScreensize } from '../../hooks/useScreensize';
 import { HamburgerMenuButton } from './HamburgerMenuButton';
 import { AvatarButton } from './AvatarButton';
 import { NotificationsButton } from './NotificationsButton';
@@ -19,7 +18,6 @@ export type HeaderProps = {
 };
 
 export const Header = ({ user, onLogin, onLogout }: HeaderProps) => {
-  const screensizes = useScreensize();
   const [isUserSettingsOpen, setIsUserSettingsOpen] = useState(false);
   const [isMenuExpanded, setIsMenuExpanded] = useState(false);
 
@@ -27,12 +25,6 @@ export const Header = ({ user, onLogin, onLogout }: HeaderProps) => {
     onLogout();
     setIsUserSettingsOpen(false);
   }
-
-  useEffect(() => {
-    if (screensizes.sm) {
-      setIsMenuExpanded(false);
-    }
-  }, [screensizes]);
 
   const ref = useOnclickOutside(() => {
     setIsUserSettingsOpen(false);

@@ -10,6 +10,13 @@ module.exports = {
     '@snowpack/plugin-react-refresh',
     '@snowpack/plugin-dotenv',
     '@snowpack/plugin-typescript',
+    [
+      '@snowpack/plugin-run-script',
+      {
+        cmd: 'npm run build:css',
+        watch: 'npm run watch:css',
+      },
+    ],
   ],
   install: [
     /* ... */

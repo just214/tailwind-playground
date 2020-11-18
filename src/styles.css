@@ -15,3 +15,9 @@
  * by plugins.
  */
 @tailwind utilities;
+
+@layer base {
+  p {
+    @apply text-gray-800 text-xl;
+  }
+}

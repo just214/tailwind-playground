@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header, User } from '../Header';
+import { SkipNav } from '../SkipNav';
 
 export type PageProps = {
   user: User;
@@ -11,9 +12,10 @@ export const Page: React.FC<PageProps> = ({ user }) => {
   }
   return (
     <article>
+      <SkipNav contentId="main-content" />
       <Header user={user} onLogin={authFn} onLogout={authFn} />
 
-      <section className="container mx-auto p-4 text-lg">
+      <section className="container mx-auto p-4 text-lg" id="main-content">
         <h2 className="text-3xl">Pages in Storybook</h2>
         <br />
         <p>
