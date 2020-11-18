@@ -1,4 +1,4 @@
-# TailwindCSS Playground
+# Tailwind Playground
 
 **A React/TypeScript app configured for TailwindCSS, Tailwind UI, and Headless UI.**
 
@@ -19,7 +19,7 @@
 Clone this repo or click the **Use this template** button in GitHub:
 
 ```sh
-git clone git@github.com:gojutin/tailwindcss-playground.git
+git clone git@github.com:gojutin/tailwind-playground.git
 ```
 
 **Step 2:**
@@ -27,7 +27,7 @@ git clone git@github.com:gojutin/tailwindcss-playground.git
 Navigate to project and install the dependencies:
 
 ```
-cd tailwindcss-playground
+cd tailwind-playground
 yarn
 ````
 

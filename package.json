@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-playground",
+  "name": "tailwind-playground",
   "version": "0.0.1",
   "description": "A React/TypeScript/Storybook app configured for usage with TailwindCSS, Tailwind UI, and Headless UI.",
   "author": {

@@ -23,7 +23,7 @@ function App() {
       <Header user={user} onLogin={onLogin} onLogout={onLogout} />
       <main className="container mx-auto p-4 flex-1">
         <div id="main-content">
-          <h1 className="text-4xl my-4 font-medium">TailwindCSS Playground</h1>
+          <h1 className="text-4xl my-4 font-medium">Tailwind Playground</h1>
           <p>Make a change to this page and watch it instantly relobbbad.</p>
         </div>
       </main>
